@@ -60,6 +60,7 @@ public class PermissaoActivity extends AppCompatActivity {
             Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
             intent.setData(Uri.parse("package:" + getPackageName()));
 
+
             startActivityForResult(intent, 1200);
         }
     }
