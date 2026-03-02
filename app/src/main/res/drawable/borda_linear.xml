@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/borda_linear.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Cor de preenchimento (pode ser transparente se necessário) -->
+    <solid android:color="#E9EEFB" />
+
+    <!-- A Borda: espessura e cor -->
+    <stroke
+        android:width="2dp"
+        android:color="#E9EEFB" /> <!-- Preto -->
+
+    <!-- Cantos arredondados (opcional) -->
+    <corners android:radius="10dp" />
+</shape>
