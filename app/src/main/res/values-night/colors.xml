@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="fundo_primary">#1B1B1F</color>
+    <color name="fundo_secondary">#272931</color>
+    <color name="text">#FFFFFF</color>
 </resources>

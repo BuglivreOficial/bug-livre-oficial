@@ -4,12 +4,12 @@
     android:shape="rectangle">
 
     <!-- Cor de preenchimento (pode ser transparente se necessário) -->
-    <solid android:color="#E9EEFB" />
+    <solid android:color="@color/fundo_secondary" />
 
     <!-- A Borda: espessura e cor -->
     <stroke
         android:width="2dp"
-        android:color="#E9EEFB" /> <!-- Preto -->
+        android:color="@color/fundo_secondary" /> <!-- Preto -->
 
     <!-- Cantos arredondados (opcional) -->
     <corners android:radius="10dp" />
